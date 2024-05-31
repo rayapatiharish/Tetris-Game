@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* Set background color to black */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#logo-container {
+    margin-bottom: 20px;
+}
+
+#logo {
+    max-width: 300px;
+    height: auto;
+}
+
+#container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#next-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#tetris, #next {
+    background-color: black;
+    box-shadow: 0 0 10px 2px lightgrey;
+}
+
+#restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}

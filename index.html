@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="logo-container">
+        <img src="C:\Users\hrayapati\Desktop\Tetris Game\TETRIS_1\Logo.png" alt="Tetris Logo" id="logo">
+    </div>
+    <div id="container">
+        <div id="game-area">
+             <h1> <center> 
+    <span style="color:red; font-family: Arial, sans-serif;">T</span>
+    <span style="color:orange; font-family: 'Times New Roman', Times, serif;">e</span>
+    <span style="color:yellow; font-family: 'Courier New', Courier, monospace;">t</span>
+    <span style="color:green; font-style: italic;">r</span>
+    <span style="color:blue; text-decoration: underline;">i</span>
+    <span style="color:indigo; font-weight: bold;">s</span>
+    <span style="color:violet; font-size: 24px;"> </span>
+    <span style="color:red; letter-spacing: 2px;">G</span>
+    <span style="color:orange; text-transform: uppercase;">a</span>
+    <span style="color:yellow; line-height: 1.5;">m</span>
+    <span style="color:green; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">e</span>
+<center></h1>
+            <h2 id="score">Score: 0</h2>
+            <h2 id="level">Level: 1</h2>
+            <canvas id="tetris" width="300" height="600"></canvas>
+        </div>
+        <div id="next-area">
+            <h2>Next Shape</h2>
+            <canvas id="next" width="120" height="120"></canvas>
+        </div>
+    </div>
+    <button id="restart-button">Restart</button>
+    <audio id="background-music" src="C:\Users\hrayapati\Desktop\Tetris Game\TETRIS_1\AUDIO\your-audio-file_1.mp3" loop></audio>
+
+</body>
+<script src="./script.js"></script>
+</html>
